@@ -1,0 +1,96 @@
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 28pt;
+
+    background-color: transparent;
+}
+
+h2{
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.text{
+    padding: 5px;
+    max-width: 75vw;
+}
+
+.service{
+    border: 2px solid white;
+    border-radius: 5px;
+
+    width: 50vh;
+    height: 50vh;
+    margin: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    max-width: 100vw;
+}
+
+.block{
+    display: block;
+    background-color: transparent;
+}
+
+.list{
+    list-style: none;
+    background-color: transparent;
+}
+
+.list-item{
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.link{
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+
+    transition: color .5s, background .5s ease;
+}
+
+.dark-link{
+    background: linear-gradient(white, white 50%, orange 50%, orange);
+    background-size: 100% 200%;
+    color: black;
+}
+
+.light-link{
+    background: linear-gradient(black, black 50%, orange 50%, orange);
+    background-size: 100% 200%;
+    color: white;
+}
+
+.link:hover{
+    background-position: 100% 100%;
+
+    color: white;
+}
+
+.font{
+    font-family: arial;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+}
