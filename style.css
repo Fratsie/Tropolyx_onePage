@@ -30,7 +30,7 @@ h2{
     border: 2px solid white;
     border-radius: 5px;
 
-    min-width: 20vw;
+    min-width: 22vw;
     max-width: 80vw;
     height: 50vh;
     margin: 10px;
@@ -95,6 +95,7 @@ h2{
     text-decoration: none;
     cursor: pointer;
     background-color: transparent;
+    color: white;
 }
 
 .droppedDown{
@@ -106,4 +107,15 @@ h2{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.input{
+    border: 2px solid black;
+    border-radius: 5px;
+
+    color: white;
+    padding: 5px;
+    margin: 10px;
+
+    width: 250px;
 }

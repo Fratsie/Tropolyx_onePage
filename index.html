@@ -21,19 +21,19 @@
 
             <ul class="list center" id="collapseList">
                 <li class="list-item">
-                    <a href="#home" class="link font dark-link">HOME</a>
+                    <a href="#home" class="link font dark-link" onclick="dropdown()">HOME</a>
                 </li>
 
                 <li class="list-item">
-                    <a href="#about" class="link font dark-link">ABOUT</a>
+                    <a href="#about" class="link font dark-link" onclick="dropdown()">ABOUT</a>
                 </li>
 
                 <li class="list-item">
-                    <a href="#services" class="link font dark-link">SERVICES</a>
+                    <a href="#services" class="link font dark-link" onclick="dropdown()">SERVICES</a>
                 </li>
 
                 <li class="list-item">
-                    <a href="#contact" class="link font dark-link">CONTACT</a>
+                    <a href="#contact" class="link font dark-link" onclick="dropdown()">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -78,6 +78,8 @@
 
                         <ul class="list">
                             <li class="list-item">- Developed with Visual Studio Code</li>
+                            <li class="list-item">- HTML, CSS & JavaScript</li>
+                            <li class="list-item">- Made to your wish</li>
                         </ul>
 
                         <br><br>
@@ -92,6 +94,12 @@
                     <div class="block">
                         <h2 class="center">application development</h2>
 
+                        <ul class="list">
+                            <li class="list-item">- Developed with Android Studio</li>
+                            <li class="list-item">- Dart (Flutter)</li>
+                            <li class="list-item">- Made to your wish</li>
+                        </ul>
+
                         <br><br>
 
                         <a href="#contact" class="link font dark-link">
@@ -100,6 +108,37 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="center" id="contact" style="min-height: 100vh; background-color: #DDD;">
+        <div class="block font">
+            <h1 class="center">CONTACT</h1>
+
+            <form action="https://formspree.io/f/mzbqoaav" method="post" style="background-color: transparent">
+                <label for="name" class="font">Name</label>
+                <input type="text" class="input" required placeholder="Name...">
+
+                <br>
+
+                <label for="email" class="font">Email</label>
+                <input type="email" name="email" class="input" required placeholder="example@gmail.com">
+
+                <br>
+
+                <div style="display: flex; align-items: center; justify-content: center; margin-left: -20px; background-color: transparent;">
+                    <label class="font" for="Message">Message</label>
+                    <textarea style="min-width: 250px; max-width: 250px; max-height: 100px; min-height: 100px; padding-top: 5px;" class="input" name="message" cols="30" rows="10" required placeholder="Message..."></textarea>
+                </div>
+
+                <br>
+
+                <button class="link font light-link" onclick="document.getElementById('contactForm').reset()" type="submit">SUBMIT</button>
+            </form>
+        </div>
+
+        <div class="block font">
+
         </div>
     </div>
     
