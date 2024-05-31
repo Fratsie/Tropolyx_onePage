@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>TROPOLYX</title>
-</head>
-<body>
 
-    <nav class="center sm-collapse" id="home" style="height: 20vh;">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/123823bc9e.js" crossorigin="anonymous"></script>
+</head>
+<body id="body" onload="checkWidth()">
+
+    <nav class="center" id="home" style="height: 15vh;">
         <div class="block">
             <h1 class="center">TROPOLYX</h1>
 
-            <ul class="list center">
+            <div class="center" id="navCollapse" style="display: none;">
+                <h2 class="center" onclick="dropdown()"><i class="fa-solid fa-bars" style="margin: 10px;"></i> menu</h2>
+            </div>
+
+            <ul class="list center" id="collapseList">
                 <li class="list-item">
                     <a href="#home" class="link font dark-link">HOME</a>
                 </li>
@@ -32,7 +39,7 @@
         </div>
     </nav>
 
-    <div class="center" style="height: 80vh;">
+    <div class="center" style="min-height: 85vh;">
         <h1 class="center">TROPOLYX</h1>
     </div>
 
@@ -49,7 +56,7 @@
                 a website developed by our company we are happy to help. Contact us and we will try to reach out as soon as possible.
                 We always try to provide the best service as possible and try to make everything to your wish. <br>
                 <br>
-                Look around the website and contact us for help
+                Look around the website and contact us if you need help!
             </p>
 
             <br><br>
@@ -60,12 +67,12 @@
         </div>
     </div>
 
-    <div class="center" id="services" style="height: 100vh;">
+    <div class="center" id="services" style="min-height: 100vh;">
         <div class="block">
             <h1 class="center">SERVICES</h1>
 
-            <div class="center font">
-                <div class="center service">
+            <div id="serviceBlocks" class="center font">
+                <div id="webBlock" class="center service">
                     <div class="block">
                         <h2 class="center">Web design</h2>
 
@@ -81,7 +88,7 @@
                     </div>
                 </div>
 
-                <div class="center service">
+                <div id="appBlock" class="center service">
                     <div class="block">
                         <h2 class="center">application development</h2>
 
