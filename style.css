@@ -51,12 +51,12 @@ h2{
 .list{
     list-style: none;
     background-color: transparent;
+    color: white;
 }
 
 .list-item{
     margin: 10px;
     background-color: transparent;
-    color: white;
 }
 
 .link{
@@ -95,7 +95,6 @@ h2{
     text-decoration: none;
     cursor: pointer;
     background-color: transparent;
-    color: white;
 }
 
 .droppedDown{
@@ -118,4 +117,13 @@ h2{
     margin: 10px;
 
     width: 250px;
+}
+
+.footer{
+    height: 20vh;
+}
+
+.social-link{
+    color: white;
+    margin: 10px;
 }

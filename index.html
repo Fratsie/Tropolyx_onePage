@@ -115,30 +115,54 @@
         <div class="block font">
             <h1 class="center">CONTACT</h1>
 
-            <form action="https://formspree.io/f/mzbqoaav" method="post" style="background-color: transparent">
-                <label for="name" class="font">Name</label>
-                <input type="text" class="input" required placeholder="Name...">
+            <div class="center" id="contactBlocks" style="background-color: transparent;">
+                <form class="center" action="https://formspree.io/f/mzbqoaav" method="post" style="background-color: transparent; height: 40vh; min-width: 22vw; max-width: 80vw; border-top-left-radius: 5px; border-bottom-left-radius: 5px;">
+                    <div class="block">
+                        <label for="name" class="font">Name</label>
+                        <input type="text" class="input" required placeholder="Name...">
+    
+                        <br>
+    
+                        <label for="email" class="font">Email</label>
+                        <input type="email" name="email" class="input" required placeholder="example@gmail.com">
+    
+                        <br>
+    
+                        <div class="center" style="background-color: transparent; margin-left: -20px;">
+                            <label class="font" for="Message">Message</label>
+                            <textarea style="min-width: 250px; max-width: 250px; max-height: 100px; min-height: 100px; padding-top: 5px;" class="input" name="message" cols="30" rows="10" required placeholder="Message..."></textarea>
+                        </div>
+    
+                        <br>
+                        
+                        <button class="link font light-link" onclick="document.getElementById('contactForm').reset()" type="submit">SUBMIT</button>
+                    </div>
+                </form>
 
-                <br>
-
-                <label for="email" class="font">Email</label>
-                <input type="email" name="email" class="input" required placeholder="example@gmail.com">
-
-                <br>
-
-                <div style="display: flex; align-items: center; justify-content: center; margin-left: -20px; background-color: transparent;">
-                    <label class="font" for="Message">Message</label>
-                    <textarea style="min-width: 250px; max-width: 250px; max-height: 100px; min-height: 100px; padding-top: 5px;" class="input" name="message" cols="30" rows="10" required placeholder="Message..."></textarea>
-                </div>
-
-                <br>
-
-                <button class="link font light-link" onclick="document.getElementById('contactForm').reset()" type="submit">SUBMIT</button>
-            </form>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.5912400740967!2d5.230538576950171!3d51.189756433858165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c132ff13ab6805%3A0xc50b4bdcadb2c6b!2sForcitestraat%2033%2F1%2C%202490%20Balen!5e0!3m2!1snl!2sbe!4v1717244734503!5m2!1snl!2sbe" style="border:0; border-top-right-radius: 5px; border-bottom-right-radius: 5px; min-width: 22vw; max-width: 80vw; height: 40vh;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
+    </div>
 
-        <div class="block font">
+    <div class="footer center">
+        <div class="block">
+            <p class="font" style="color: white;">&copy; Tropolyx 2024</p>
 
+            <br>
+
+            <div class="center">
+                <a href="">
+                    <i class="fa-brands fa-instagram fa-xl social-link"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-x-twitter fa-xl social-link"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-tiktok fa-xl social-link"></i>
+                </a>
+            </div>
         </div>
     </div>
     

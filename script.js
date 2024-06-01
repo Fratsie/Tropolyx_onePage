@@ -9,6 +9,9 @@ function checkWidth(){
         //put service blocks underneath eacht other
         document.getElementById('serviceBlocks').style.flexDirection = "column";
 
+        //put contact info underneath eacht other
+        document.getElementById('contactBlocks').style.flexDirection = "column";
+
         //collapse navbar
         document.getElementById('collapseList').classList.add('droppedDown');
         document.getElementById('navCollapse').style.display = "block";
